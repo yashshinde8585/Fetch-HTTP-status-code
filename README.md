@@ -18,5 +18,3 @@ This Python script is designed to check the HTTP status code of any provided web
 ## 🧰 Requirements
 
 This script uses the `emoji` library to display emojis in the output.
-
-To install the required dependency, use the command:
