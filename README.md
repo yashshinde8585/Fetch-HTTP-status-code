@@ -1,24 +1,22 @@
-## Program to fetch the HTTP status code
+# 🔍 HTTP Status Code Fetcher
 
-This script is used to fetch the status code of any request.
+This Python script is designed to check the HTTP status code of any provided web URL or API endpoint.
 
-Input: 
--> URL of a website or an API
+## 🎯 What It Does
 
-Output:
--> Line 1 : Status code of the response followed by emoji (thumbsup/thumbsdown)
--> Line 2 : Relevant message about the status code.
-i.e. If status code corresponds to failure, then reason of failure would be shown in the message field.
+**Input:**
 
-## Prerequisites
+- A prompt asks you to enter a URL (website or API link).
 
-This program uses and external dependency of "emoji" library to display the emojis in output.
-This library can be installed easily by using the following command:
-pip install -r requirements.txt
+**Output:**
 
-## How to use this script?
+- **Line 1:** Displays the status code with a thumbs-up (👍) if successful or thumbs-down (👎) if failed.
+- **Line 2:** Shows a descriptive message. If the request fails, it will include the reason for failure.
 
--> Install the requirements.
-->Type the following command:
-python fetch_http_status_code.py
-->A message asking URL/API would be displayed : Enter any url of choice and check the output
+---
+
+## 🧰 Requirements
+
+This script uses the `emoji` library to display emojis in the output.
+
+To install the required dependency, use the command:
